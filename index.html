@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rence's Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="inputfield" class="input" placeholder="0">
+            <div class="keys">
+                <input type="button" class="key key-up" value="C" onclick="clr('c')">
+                <input type="button" class="key key-up" value="del" onclick="del('del')">
+                <input type="button" class="key key-up" value="%" onclick="digit('%')">
+                <input type="button" class="key key-up" value="/" onclick="digit('/')">
+                <input type="button" class="key" value="7" onclick="digit('7')">
+                <input type="button" class="key" value="8" onclick="digit('8')">
+                <input type="button" class="key" value="9" onclick="digit('9')">
+                <input type="button" class="key key-up" value="*" onclick="digit('*')">
+                <input type="button" class="key" value="4" onclick="digit('4')">
+                <input type="button" class="key" value="5" onclick="digit('5')">
+                <input type="button" class="key" value="6" onclick="digit('6')">
+                <input type="button" class="key key-up" value="-" onclick="digit('-')">
+                <input type="button" class="key" value="1" onclick="digit('1')">
+                <input type="button" class="key" value="2" onclick="digit('2')">
+                <input type="button" class="key" value="3" onclick="digit('3')">
+                <input type="button" class="key key-up" value="+" onclick="digit('+')">
+                <input type="button" class="key key-up" value="." onclick="digit('.')">
+                <input type="button" class="key" value="0" onclick="digit('0')">
+                <input type="button" class="key key-equal" value="=" onclick="result('=')">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
